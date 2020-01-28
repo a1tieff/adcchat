@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Title:</strong>
+  <%= @coversation.title %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @coversation.description %>
+</p>
+
+<%= link_to 'Edit', edit_coversation_path(@coversation) %> |
+<%= link_to 'Back', coversations_path %>

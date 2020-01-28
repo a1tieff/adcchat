@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Position:</strong>
+  <%= @answer.position %>
+</p>
+
+<p>
+  <strong>Step:</strong>
+  <%= @answer.step_id %>
+</p>
+
+<p>
+  <strong>Next step:</strong>
+  <%= @answer.next_step_id %>
+</p>
+
+<p>
+  <strong>Effect:</strong>
+  <%= @answer.effect %>
+</p>
+
+<%= link_to 'Edit', edit_answer_path(@answer) %> |
+<%= link_to 'Back', answers_path %>

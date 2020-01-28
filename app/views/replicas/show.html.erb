@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Position:</strong>
+  <%= @replica.position %>
+</p>
+
+<p>
+  <strong>Type:</strong>
+  <%= @replica.type %>
+</p>
+
+<p>
+  <strong>Timeout:</strong>
+  <%= @replica.timeout %>
+</p>
+
+<%= link_to 'Edit', edit_replica_path(@replica) %> |
+<%= link_to 'Back', replicas_path %>
